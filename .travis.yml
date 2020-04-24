@@ -32,7 +32,7 @@ install:
  - make tools
 
 script:
- - make lint
+ - make lintall
  - go test -v -tags helper
  - go test -v -tags marshal
  - go test -v -tags misc
